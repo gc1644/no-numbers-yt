@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Block digit keys from seeking video",
+  "description": "Stops 0-9 from jumping around in videos (YouTube, Netflix, etc.)",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["block.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
