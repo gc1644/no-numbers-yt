@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Block digit keys from seeking video",
-  "description": "Stops 0-9 from jumping around in videos (YouTube, Netflix, etc.)",
+  "name": "no-numbers-yt",
+  "description": "Lock number buttons on youtube"
   "version": "1.0",
   "permissions": [
     "activeTab"

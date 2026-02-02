@@ -1,6 +1,3 @@
-// Block number keys (0-9) + Numpad0-9 + Home/End from bubbling up
-// so sites can't use them for seeking
-
 const blockedKeys = new Set([
   '0','1','2','3','4','5','6','7','8','9',
   'Numpad0','Numpad1','Numpad2','Numpad3','Numpad4',
